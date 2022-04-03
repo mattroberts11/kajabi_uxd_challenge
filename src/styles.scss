@@ -12,7 +12,9 @@ $green: #23856D;
   height: 16px;
   margin-right: 8px;
 }
-
+html {
+  font-size: 16px;
+}
 // STYLES
 body {
   // background-color: #E5E5E5;
@@ -20,8 +22,9 @@ body {
 
 .schedule-meeting {
   font-family: 'Montserrat', sans-serif;
-  height: 116px;
-  width: 688px;
+  // min-height: 116px;
+  // width: 688px;
+  width: 100%;
   border: 1px solid;
   border-color: $light-grey;
   border-radius: 6px;

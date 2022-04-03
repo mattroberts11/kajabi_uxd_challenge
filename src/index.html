@@ -6,33 +6,37 @@
   </head>
   <body>
 
-    <div class="schedule-meeting available" tabindex="1"> <!-- There is an unavailable class that you can toggle to show a red bar -->
-      <div class="card">
+    <div class="schedule-meeting available" tabindex="1" aria-label="Available" ar>
+      <div class="card" aria-description="Information about the meeting you would like to schedule">
         <div class="card__left">
-          <div class="card__left-avatar">
+          <div
+            class="card__left-avatar"
+            role="img"
+            aria-label="Avatar of meeting organizer"
+          >
             <img src="./assets/avatar-naomi@2x.png" alt="Cicle avatar of Naomi"/>
           </div>
         </div>
-        <div class="card__details">
-          <div class="title">
+        <div class="card__details" aria-decription="Meeting details">
+          <div class="title" aria-description="Name of meeting">
             Free Consultation w/ Naomi
           </div>
-          <div class="duration-date-time">
-            <div class="duration" aria-label="Duration of meeting">
+          <div class="duration-date-time" role="row" aria-description="Duration and time of meeting">
+            <div class="duration" role="cell" aria-description="Duration of meeting">
               <div class="clock-icon"></div>
               15 mins
             </div>
-            <div class="date-time" aria-label="Date and Time of meeting">
+            <div class="date-time" role="cell" aria-description="Date and Time of meeting">
               <div class="calendar-icon"></div>
               Feb 20, 2021 • 5:00pm PST
             </div>
           </div>
-          <div class="location">
+          <div class="location" aria-description="Location of meeting">
             <div class="map-pin-icon"></div>
             <a href="kajabi.zoom.us/tbd">kajabi.zoom.us/tbd </a>
           </div>
         </div>
-        <div class="card__options"></div>
+        <div class="card__options" role="button" aria-label="Open" aria-description="Click to open options"></div>
       </div>
     </div>
 

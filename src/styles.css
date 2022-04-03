@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
 .schedule-meeting {
   font-family: 'Montserrat', sans-serif;
-  height: 116px;
-  width: 688px;
+  width: 100%;
   border: 1px solid;
   border-color: #E0E7F1;
   border-radius: 6px;
