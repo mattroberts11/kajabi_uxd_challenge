@@ -7,3 +7,5 @@ Add any notes here you'd like for reviewers to see in regard to your challenge s
 - There is an unavailable class that a developer could use to toggle to show a red bar
 - I added some very minimal interactivity via hover styles
 - I tried to make this card as accessible as possible
+- no max width set assuming this would be contained by a parent element
+- I made it fully responsive but not down to galaxy fold width of 280px - will look good on most devices.  Did not account for padding or margin on parent element.
