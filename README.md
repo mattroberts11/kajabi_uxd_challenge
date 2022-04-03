@@ -1,2 +1,2 @@
-# kajabi_uxd_challenge
-Kajabi UXD Design Challenge
+# Kajabi UXD Challenge
+Kajabi UXD Design Challenge by Matt Roberts.  Enjoy!
