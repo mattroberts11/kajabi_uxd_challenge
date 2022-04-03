@@ -6,12 +6,12 @@ html {
   font-family: 'Montserrat', sans-serif;
   min-height: 116px;
   width: 100%;
+  max-width: 688px;
   border: 1px solid;
   border-color: #E0E7F1;
   border-radius: 0.4rem;
   display: flex; }
   .schedule-meeting:hover {
-    cursor: pointer;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1); }
   .schedule-meeting.available {
     background-color: #23856D; }
@@ -26,6 +26,9 @@ html {
     display: flex;
     align-items: center;
     width: 100%; }
+    @media (max-width: 375px) {
+      .schedule-meeting .card {
+        flex-direction: column; } }
     .schedule-meeting .card__left-avatar {
       margin-left: 20px; }
       @media (max-width: 525px) {
@@ -34,6 +37,9 @@ html {
       @media (max-width: 400px) {
         .schedule-meeting .card__left-avatar {
           margin-left: 10px; } }
+      @media (max-width: 375px) {
+        .schedule-meeting .card__left-avatar {
+          margin-top: 10px; } }
       .schedule-meeting .card__left-avatar img {
         width: 5rem;
         height: 5rem; }
@@ -49,6 +55,10 @@ html {
       @media (max-width: 400px) {
         .schedule-meeting .card__details {
           margin-left: 15px; } }
+      @media (max-width: 375px) {
+        .schedule-meeting .card__details {
+          flex-direction: column;
+          width: 100%; } }
       .schedule-meeting .card__details .title {
         color: #263240;
         font-size: 16px;
@@ -73,6 +83,10 @@ html {
             flex-direction: column;
             font-size: 12px;
             line-height: 20px; } }
+        @media (max-width: 375px) {
+          .schedule-meeting .card__details .duration-date-time {
+            font-size: 14px;
+            line-height: 24px; } }
         .schedule-meeting .card__details .duration-date-time .duration {
           display: flex;
           align-items: center;
@@ -126,6 +140,15 @@ html {
       border-radius: 50%; }
       .schedule-meeting .card__options:hover {
         background-color: rgba(224, 231, 241, 0.4); }
+      .schedule-meeting .card__options button {
+        border: 0;
+        background: none;
+        padding: 0;
+        margin: 0;
+        height: 32px;
+        width: 32px; }
+        .schedule-meeting .card__options button:hover {
+          cursor: pointer; }
       @media (max-width: 400px) {
         .schedule-meeting .card__options {
           margin-right: 8px; } }

@@ -7,7 +7,7 @@
   </head>
   <body>
 
-    <div class="schedule-meeting available" tabindex="1" aria-label="Available" ar>
+    <div class="schedule-meeting available" aria-label="Available" ar>
       <div class="card" aria-description="Information about the meeting you would like to schedule">
         <div class="card__left">
           <div
@@ -34,10 +34,15 @@
           </div>
           <div class="location" aria-description="Location of meeting">
             <div class="map-pin-icon"></div>
-            <a href="kajabi.zoom.us/tbd">kajabi.zoom.us/tbd </a>
+            <a href="kajabi.zoom.us/tbd" tabindex="0">kajabi.zoom.us/tbd </a>
           </div>
         </div>
-        <div class="card__options" role="button" aria-label="Open" aria-description="Click to open options"></div>
+        <div class="card__options" >
+          <button
+            aria-label="Open"
+            aria-description="Click to open options">
+          </button>
+        </div>
       </div>
     </div>
 
