@@ -4,9 +4,9 @@ html {
 
 .schedule-meeting {
   font-family: 'Montserrat', sans-serif;
-  min-height: 116px;
+  min-height: 7.25rem;
   width: 100%;
-  max-width: 688px;
+  max-width: 43rem;
   border: 1px solid;
   border-color: #E0E7F1;
   border-radius: 0.4rem;
@@ -30,16 +30,16 @@ html {
       .schedule-meeting .card {
         flex-direction: column; } }
     .schedule-meeting .card__left-avatar {
-      margin-left: 20px; }
+      margin-left: 1.25rem; }
       @media (max-width: 525px) {
         .schedule-meeting .card__left-avatar {
-          margin-left: 15px; } }
+          margin-left: 1rem; } }
       @media (max-width: 400px) {
         .schedule-meeting .card__left-avatar {
-          margin-left: 10px; } }
+          margin-left: 0.625rem; } }
       @media (max-width: 375px) {
         .schedule-meeting .card__left-avatar {
-          margin-top: 10px; } }
+          margin-top: 0.625rem; } }
       .schedule-meeting .card__left-avatar img {
         width: 5rem;
         height: 5rem; }
@@ -48,58 +48,58 @@ html {
       display: flex;
       flex-direction: column;
       flex-grow: 1;
-      margin-left: 25px; }
+      margin-left: 1.5rem; }
       @media (max-width: 525px) {
         .schedule-meeting .card__details {
-          margin-left: 20px; } }
+          margin-left: 1.25rem; } }
       @media (max-width: 400px) {
         .schedule-meeting .card__details {
-          margin-left: 15px; } }
+          margin-left: 1rem; } }
       @media (max-width: 375px) {
         .schedule-meeting .card__details {
           flex-direction: column;
           width: 100%; } }
       .schedule-meeting .card__details .title {
         color: #263240;
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 1rem;
+        line-height: 1.25rem;
         font-weight: 600;
         letter-spacing: 0.3px;
-        margin-bottom: 5px; }
+        margin-bottom: 0.313rem; }
       .schedule-meeting .card__details .duration-date-time {
         display: flex;
         color: #526275;
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.5rem;
         letter-spacing: 0.2px;
-        margin-bottom: 5px;
-        margin-left: 4px; }
+        margin-bottom: 0.313rem;
+        margin-left: 0.25rem; }
         @media (max-width: 525px) {
           .schedule-meeting .card__details .duration-date-time {
             flex-direction: column; } }
         @media (max-width: 400px) {
           .schedule-meeting .card__details .duration-date-time {
             flex-direction: column;
-            font-size: 12px;
-            line-height: 20px; } }
+            font-size: 0.75rem;
+            line-height: 1.25rem; } }
         @media (max-width: 375px) {
           .schedule-meeting .card__details .duration-date-time {
-            font-size: 14px;
-            line-height: 24px; } }
+            font-size: 0.875rem;
+            line-height: 1.5rem; } }
         .schedule-meeting .card__details .duration-date-time .duration {
           display: flex;
           align-items: center;
-          margin-right: 20px; }
+          margin-right: 1.25rem; }
           @media (max-width: 525px) {
             .schedule-meeting .card__details .duration-date-time .duration {
-              margin-right: 0px; } }
+              margin-right: 0rem; } }
           .schedule-meeting .card__details .duration-date-time .duration .clock-icon {
             background: url("./assets/icon-clock.svg") center center;
             background-repeat: no-repeat;
             width: 1rem;
             height: 1rem;
-            margin-right: 8px; }
+            margin-right: 0.5rem; }
         .schedule-meeting .card__details .duration-date-time .date-time {
           display: flex;
           align-items: center; }
@@ -108,34 +108,34 @@ html {
             background-repeat: no-repeat;
             width: 1rem;
             height: 1rem;
-            margin-right: 8px; }
+            margin-right: 0.5rem; }
       .schedule-meeting .card__details .location {
         color: #526275;
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.5rem;
         letter-spacing: 0.2px;
         display: flex;
         align-items: center;
-        margin-left: 4px; }
+        margin-left: 0.25rem; }
         @media (max-width: 400px) {
           .schedule-meeting .card__details .location {
-            margin-left: 10px; } }
+            margin-left: 0.625rem; } }
         .schedule-meeting .card__details .location .map-pin-icon {
           background: url("./assets/icon-map-pin.svg") center center;
           background-repeat: no-repeat;
           width: 1rem;
           height: 1rem;
-          margin-right: 8px; }
+          margin-right: 0.5rem; }
         .schedule-meeting .card__details .location a {
           text-decoration: none;
           color: #526275; }
           .schedule-meeting .card__details .location a:hover {
             text-decoration: underline; }
     .schedule-meeting .card__options {
-      height: 32px;
-      width: 32px;
-      margin-right: 15px;
+      height: 2rem;
+      width: 2rem;
+      margin-right: 1rem;
       background: url("./assets/icon-options.svg") center center no-repeat;
       border-radius: 50%; }
       .schedule-meeting .card__options:hover {
@@ -145,12 +145,12 @@ html {
         background: none;
         padding: 0;
         margin: 0;
-        height: 32px;
-        width: 32px; }
+        height: 2rem;
+        width: 2rem; }
         .schedule-meeting .card__options button:hover {
           cursor: pointer; }
       @media (max-width: 400px) {
         .schedule-meeting .card__options {
-          margin-right: 8px; } }
+          margin-right: 0.5rem; } }
 
 /*# sourceMappingURL=styles.css.map */
